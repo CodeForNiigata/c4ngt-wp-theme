@@ -18,6 +18,9 @@
 						)); ?>
 					</nav>
 
+          <div class="logo">
+              <img src="<?php bloginfo('template_directory'); ?>/img/c4ngt_logo.png">
+          </div>
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
 				</div>
@@ -25,8 +28,7 @@
 			</footer>
 
 		</div>
-
-		<?php // all js scripts are loaded in library/bones.php ?>
+    <?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
 
 	</body>
